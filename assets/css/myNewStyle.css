@@ -27,7 +27,7 @@ body {
 	background: #ffffff; 
 	margin: 0; 
 	height: 100%; 
-	color: {{ site.colors.secondary }};
+	color: site.colors.secondary;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	}
@@ -44,7 +44,7 @@ p {
 	font-weight: 400;
 	font-size: 14px; 
 	line-height: 24px;
-	color: {{ site.colors.secondary }}; 
+	color: site.colors.secondary; 
 	margin-top: 10px; 
 }
 
@@ -64,7 +64,7 @@ ol {
 }
 
 a { 
-    color:{{ site.colors.link }};
+    color:site.colors.link;
     padding: 0;
 	margin: 0;
 	text-decoration: none; 
@@ -77,18 +77,18 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color:{{ site.colors.link_hover }};
+  color:site.colors.link_hover;
 }
 
 ::-moz-selection  {
 	color: #fff;
 	text-shadow:none;
-	background:{{ site.colors.secondary }};
+	background:site.colors.secondary;
 }
 ::selection {
 	color: #fff;
 	text-shadow:none;
-	background:{{ site.colors.secondary }};
+	background:site.colors.secondary;
 }
 
 .centered {
@@ -120,21 +120,21 @@ a:focus {
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-	color: {{ site.colors.primary }};
+	color: site.colors.primary;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: {{ site.colors.primary }};
+	color: site.colors.primary;
 	background-color: transparent;
 }
 
 .navbar-default {
-	background-color: {{ site.colors.secondary }};
+	background-color: site.colors.secondary;
 	border-color: transparent;
 }
 
 .dropdown-menu {
-	background: {{ site.colors.secondary }};
+	background: site.colors.secondary;
 }
 
 .dropdown-menu > li > a {
@@ -145,8 +145,8 @@ a:focus {
 
 .btn-theme {
   color: #fff;
-  background-color: {{ site.colors.secondary }};
-  border-color: {{ site.colors.secondary }};
+  background-color: site.colors.secondary;
+  border-color: site.colors.secondary;
   margin: 4px;
 }
 .btn-theme:hover,
@@ -155,8 +155,8 @@ a:focus {
 .btn-theme.active,
 .open .dropdown-toggle.btn-theme {
   color: #fff;
-  background-color: {{ site.colors.primary }};
-  border-color: {{ site.colors.primary }};
+  background-color: site.colors.primary;
+  border-color: site.colors.primary;
 }
 
 .dmbutton:hover,
@@ -206,7 +206,7 @@ a:focus {
 }
 
 .hline {
-	border-bottom: 2px solid {{ site.colors.secondary }};
+	border-bottom: 2px solid site.colors.secondary;
 }
 
 .hline-w {
@@ -218,7 +218,7 @@ a:focus {
 ################################################################# */
 
 #headerwrap {
-	background-color: {{ site.colors.primary }};
+	background-color: site.colors.primary;
 	min-height: 0px;
 	padding-top: 100px;
 	padding-bottom: 50px;
@@ -246,7 +246,7 @@ a:focus {
 }
 
 #service i {
-	color: {{ site.colors.primary }};
+	color: site.colors.primary;
 	font-size: 60px;
 	padding: 15px;
 }
@@ -294,15 +294,15 @@ a:focus {
 {
 	height:100%;
 	width:100%;
-	background-color:{{ site.colors.primary }};
-	background-color:rgba({{ site.colors.primary_rgb }},.9);
+	background-color:site.colors.primary;
+	background-color:rgba(site.colors.primary_rgb,.9);
 	text-align:center;
 }
 
 /* Testimonials Wrap */
 #twrapback {
-    background-color: {{ site.colors.primary }};
-    background-color:rgba({{ site.colors.primary_rgb }},.8);
+    background-color: site.colors.primary;
+    background-color:rgba(site.colors.primary_rgb,.8);
     position: absolute;
     top: 0;
     left: 0;
@@ -360,25 +360,25 @@ a:focus {
 #footerwrap {
 	padding-top: 60px;
 	padding-bottom: 60px;
-	background: {{ site.colors.secondary }};
+	background: site.colors.secondary;
 }
 
 #footerwrap p {
-	color: {{ site.colors.footer_content }};
+	color: site.colors.footer_content;
 }
 
 #footerwrap h4 {
-	color: {{ site.colors.footer_heading }};
+	color: site.colors.footer_heading;
 }
 
 #footerwrap i {
 	font-size: 30px;
-	color: {{ site.colors.footer_content }};
+	color: site.colors.footer_content;
 	padding-right: 25px;
 }
 
 #footerwrap i:hover {
-	color: {{ site.colors.primary }}
+	color: site.colors.primary
 }
 
 /*	################################################################
@@ -387,7 +387,7 @@ a:focus {
 /* General Tweaks */
 
 #blue {
-	background: {{ site.colors.primary }};
+	background: site.colors.primary;
 	margin-top: 60px;
 	margin-bottom: 60px;
 	padding-top: 25px;
@@ -422,7 +422,7 @@ a:focus {
 }
 
 .ctitle {
-	color: {{ site.colors.primary }};
+	color: site.colors.primary;
 	font-weight: 700;
 	margin-bottom: 15px;
 }
@@ -438,7 +438,7 @@ csmall {
 }
 
 .badge-theme {
-	background: {{ site.colors.primary }};
+	background: site.colors.primary;
 }
 
 /* Contact Page */
