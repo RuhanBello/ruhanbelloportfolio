@@ -1,0 +1,21 @@
+---
+layout: project
+title:  "The VACA"
+date:   2017-01-23 16:54:46
+author: Submersivo Game Studio
+categories:
+- project
+img: TheVACAShort.jpg
+thumb: thumb02.jpg
+carousel:
+- TheVACA.jpg
+- TheVACA01.jpg
+- TheVACA02.jpg
+- TheVACA03.jpg
+website: https://play.google.com/store/apps/details?id=com.SubmersivoGameStudio.TheVACA&hl=pt_BR
+---
+The VACA (or The Vanish of Abducted Cows by Aliens) is a fun casual mobile pixel art game starring by a little cow who dreams of be abducted by aliens! But to fulfill this desire, she needs your help!
+
+Control the direction of the milk jet left and right to avoid flying pigs, chickens in flying wood fences, and even farmers armed in floating chairs. All those are being sucked by a powerful abduction beam of the alien ship!
+
+Does it seem easy? It is not! Show your skills with quick clicks to master the cow propulsive movement and overcome the many challenges throughout the levels! Also remember to collect as many "Cow Coins" along the way and unlock new skins with unique abilities!

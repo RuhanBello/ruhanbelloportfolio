@@ -1,0 +1,19 @@
+---
+layout: project
+title:  "PuLsE"
+date:   2017-01-23 16:54:46
+author: Ruhan Bello
+categories:
+- project
+img: PuLsEShort.jpg
+thumb: thumb02.jpg
+carousel:
+- Pulse02.png
+- Pulse03.png
+website: http://globalgamejam.org/2017/games/pulse-10
+---
+PuLsE is a game I made by myself for Global Game Jam 2017. It is a multiplayer game that involves surviving in an arena. The special point about this game is that it uses the information from a music file to change the behaviour of the environment. The more agitated and louder the music is, more the ground of the game create waves and more meteors fall from the sky.
+
+The objective of the players is to NOT touch the burning rooftop. Everytime a player collides with a meteor, the player becomes bigger (and that is why you can see a very big cube on the picture). Everytime a player collides with the other, both of the players are pushed away.
+
+It is a free to play game and can be downloaded for Windows and MAC platform on my Global Game Jam site.
